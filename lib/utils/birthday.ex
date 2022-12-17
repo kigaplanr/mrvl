@@ -1,4 +1,5 @@
 defmodule Mrvl.Birthday do
+  @spec random_birthday() :: String.t()
   def random_birthday() do
     [
       ~D[1990-01-01],
